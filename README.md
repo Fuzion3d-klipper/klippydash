@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Fuzion3d-klipper/klippydash/main/assets/icons/icon.png" width="140">
+  <img src="https://raw.githubusercontent.com/Fuzion3d-klipper/klippydash/main/assets/icons/screen.png" width="140">
 </p>
 
 <h1 align="center">KlippyDash</h1>
