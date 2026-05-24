@@ -1,0 +1,44 @@
+{
+  "name": "KlippyDash",
+  "version": "1.0.0",
+  "description": "ModDash para Klipper",
+  "main": "main.js",
+  "author": "Fuzion3d",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron .",
+    "build:win": "electron-builder --win portable",
+    "build:win-installer": "electron-builder --win nsis"
+  },
+  "devDependencies": {
+    "electron": "^42.2.0",
+    "electron-builder": "^26.8.1"
+  },
+  "build": {
+    "appId": "com.klipperdash.app",
+    "productName": "KlippyDash",
+    "files": [
+      "index.html",
+      "main.js",
+      "preload.js",
+      "assets/**/*"
+    ],
+    "directories": {
+      "output": "dist"
+    },
+    "win": {
+      "icon": "assets/icon.ico",
+      "target": [
+        {
+          "target": "portable",
+          "arch": [
+            "x64"
+          ]
+        }
+      ]
+    },
+    "portable": {
+      "artifactName": "KlippyDash-portable.exe"
+    }
+  }
+}
