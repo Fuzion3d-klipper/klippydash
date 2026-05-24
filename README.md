@@ -57,7 +57,7 @@ The latest beta release can be downloaded from the Releases section of this repo
 ## 🖼 Preview
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Fuzion3d-klipper/klippydash/main/assets/misc/screen.png" width="100%">
+  <img src="https://raw.githubusercontent.com/Fuzion3d-klipper/klippydash/main/assets/misc/screenshot.png" width="100%">
 </p>
 
 ---
